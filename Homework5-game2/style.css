@@ -1,0 +1,128 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Century Gothic', serif;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.container {
+	-moz-user-select:none;/*火狐*/
+	-webkit-user-select:none;/*webkit浏览器*/
+	-ms-user-select:none;/*IE10*/
+	-khtml-user-select:none;/*早期浏览器*/
+	user-select:none;
+	cursor: url(img/bang.cur), default;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	background-color: #fff;
+}
+
+.container:active {
+	cursor: url(img/bang2.cur), default;
+}
+
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.row button {
+	float: left;
+}
+
+.row div {
+	text-align: left;
+	line-height: 30px;
+	width: 100px;
+	float: right;
+}
+
+#start {
+	font-size: 15px;
+	background-color: #eee;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	width: 100px;
+	height: 30px;
+	/*cursor: url(img/bang.cur), default;*/
+}
+
+#start:active {
+	background-color: #A7A7A7;
+/*	cursor: url(img/bang2.cur), default;*/
+}
+
+#state {
+	font-size: 15px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+}
+
+#ground {
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: auto;
+}
+
+.line {
+	margin-top: 20px;
+	width: 400px;
+}
+
+#time {
+	margin-right: 10px
+}
+
+.mole {
+	border: none;
+	background: url(img/hole.png);
+	background-size: 40px 40px;
+	outline: none;
+	cursor: url(img/bang.cur), default;
+	width: 40px;
+	height: 40px;
+	margin: 2px;
+}
+
+.mole:active {
+	cursor: url(img/bang2.cur), default;
+}
+
+.active-mole {
+	outline: none;
+	border: none;
+	background: url(img/mouse.gif);
+	background-size: 40px 40px;
+	cursor: url(img/bang.cur), default;
+	width: 40px;
+	height: 40px;
+	margin: 2px;
+	/*background-color: #F44336;*/
+}
+
+.active-mole:active {
+	cursor: url(img/bang2.cur), default;
+}

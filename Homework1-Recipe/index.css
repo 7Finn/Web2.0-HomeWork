@@ -1,0 +1,230 @@
+body {
+	color: #404040;
+	font-size: 11pt;
+	font-family: 'Century Gothic', Verdana, sans-serif;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1024px;
+}
+
+.nav {
+	height: 50px;
+	margin: 30px auto;
+	width: 1024px;
+	border-radius: 5px;
+	border: 1px solid #EEEEEE;
+	background-color: #F8F8F8;
+}
+
+.navbar-header {
+	text-indent: 20px;
+	line-height: 50px;
+	font-size: 17pt;
+	font-family: 'Century Gothic', Verdana, sans-serif;
+	color: #777;
+	width: 115px;
+	float: left;
+}
+
+.navbar-list {
+	padding-left: 115px;
+	margin: 0;
+	list-style-type: none;
+	line-height: 50px;
+	font-size: 15px;
+}
+
+.navbar-list li {
+	width: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+	color: #777;
+}
+
+#home:hover {
+	cursor: pointer;
+	color: #000000;
+}
+
+#contact a:hover {
+	cursor: pointer;
+	color: #EA726F;
+}
+
+#contact a {
+	color: #777;
+	text-decoration: none;
+	display: block;
+}
+.navbar-list .active {
+	background-color: #E7E7E7;
+}
+
+#contact {
+	float: right;
+}
+
+.line {
+	border: 1px solid #EEEEEE;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.jumbotron {
+	height: 480px;
+	background-color: #333;
+	border-radius: 7px;
+	text-align: center;
+}
+
+.jumbotron .head {
+	color: #fff;
+	line-height: 150px;
+	font-size: 40pt;
+	font-family: 'Comic Sans MS', 'Century Gothic', Verdana, sans-serif;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.jumbotron .content {
+	color: #fff;
+	font-size: 15pt;
+	font-family: 'Comic Sans MS', 'Century Gothic', Verdana, sans-serif;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.jumbotron .pic-container {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	clear: both;
+}
+
+.jumbotron .pic img{
+	border: solid 3px white;
+	border-radius: 7px;
+	width: 150px;
+	height: auto;
+	margin: 2px;
+	-webkit-transition: all ease-in 0.3s;
+    -moz-transition: all ease-in 0.3s;
+    -ms-transition: all ease-in 0.3s;
+    -o-transition: all ease-in 0.3s;
+    transition: all ease-in 0.3s;
+}
+
+.jumbotron .pic img:hover {
+	box-shadow: 15px 15px 20px rgba(50, 50, 50, 0.4);
+    transform: rotate(0deg) scale(1.20);
+    -webkit-transform: rotate(0deg) scale(1.20);
+    -webkit-transition: all ease-in 0.3s;
+    -moz-transition: all ease-in 0.3s;
+    -ms-transition: all ease-in 0.3s;
+    -o-transition: all ease-in 0.3s;
+    transition: all ease-in 0.3s;
+    z-index: 2;
+}
+
+
+.pic1{
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+}
+
+
+.pic3{
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+
+
+.jumbotron .stars {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.jumbotron .button {
+	min-height: 50px;
+	line-height: 50px;
+	display: block;
+	color: white;
+	width: 120px;
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #2FADD3;
+	margin-top: 20px;
+	font-size: 20pt;
+	font-family: 'Comic Sans MS', Helvetica, 'Century Gothic', Verdana, sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+.jumbotron .button:hover {
+	cursor: pointer;
+	background-color: #2891B1;
+}
+
+h2 {
+	text-align: center;
+}
+
+.other-recipe-container {
+	margin-top: 30px;
+	width: auto;
+	height: 300px;
+}
+
+.other-recipe {
+	border: 1px solid #EEEEEE;
+	background-color: #F8F8F8;
+	width: 500px;
+	height: 300px;
+	border-radius: 5px;
+}
+
+#left-other {
+	float: left;
+}
+
+.other-recipe .content {
+	margin: 30px 40px;
+	font-size: 18px;
+}
+
+.other-recipe .comment {
+	width: 200px;
+	float: right;
+	font-size: 13px;
+	font-style: italic;
+}
+
+.other-recipe .content img{
+	border-radius: 5px;
+	width: 200px;
+	float: left;
+}
+
+#right-other {
+	float: right;
+}
+
+#copyright {
+	font-size: 18px;
+	color: #777;
+}

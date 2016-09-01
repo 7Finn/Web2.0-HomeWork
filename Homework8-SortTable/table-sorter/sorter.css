@@ -1,0 +1,47 @@
+body {
+	font-family: 'Bell MT', serif;
+}
+h1 {
+	font-size: 25px;
+}
+th {
+	-moz-user-select: none;
+ 	-webkit-user-select: none;
+  	user-select: none;
+}
+table {
+  border-collapse:collapse;
+}
+
+table, th, td {
+  border: 1px solid grey;
+}
+
+body th {
+	font-family: Arial, serif;
+	background-color: #031A80;
+	color: #fff;
+	font-size: 15px;
+	text-align: left;
+}
+
+body tr {
+	font-family: Arial, serif;
+}
+
+th, td {
+	padding: 2px;
+}
+
+
+tr.alternate td {
+  background-color: #DDDDDD;
+}
+
+.selected {
+	background-color: #A6AFFC;
+}
+
+.scend {
+	float: right;
+}
